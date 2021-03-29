@@ -5,7 +5,7 @@
   "description": "Webpack app",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --config webpack.config.js" 
+    "start": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/grimxreaper/webpack_test#readme",
   "devDependencies": {
+    "css-loader": "^5.2.0",
+    "style-loader": "^2.0.0",
     "webpack": "^5.28.0",
     "webpack-cli": "^4.6.0"
   }
