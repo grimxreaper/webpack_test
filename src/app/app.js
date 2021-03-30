@@ -1,5 +1,5 @@
 import { inputsAreValid } from "./utils/inputs-are-valid";
-import { parsedInputs } from "./utils/parse-inputs";
+import { parseInputs } from "./utils/parse-inputs";
 
 
 export const run = (alertService, componentService) => {
